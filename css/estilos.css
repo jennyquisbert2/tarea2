@@ -1,35 +1,39 @@
-*{
-    margin: 10px;
-}
 #principal{
     margin: auto;
-    margin-top: 30px;
     border-radius: 30px;
     border-style: solid;
     width: 600px;
     height: 600px;
-    background-color: chartreuse;
+    background-color: black;
 
 }
 #o1{
     margin: auto;
-    margin-top: 30px;
+    position: relative;
+    top:20px;
+    margin-left: 10px;
     border-radius: 20px;
     width: 20px;
     height: 20px;
     background-color: black;
-    float: left;
+    
 
 }
 #o2{
     margin: auto;
-    margin-top: 30px;
+    margin-right: 10px;
     border-radius: 20px;
     width: 20px;
     height: 20px;
     background-color: black;
-    float: right;
 
+}
+#n1{
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    background-color: orangered;
+    border-radius: 20px;
 }
 
 #b1{
@@ -37,27 +41,30 @@
     border-radius: 100px;
     width: 100px;
     height: 100px;
-    background-color:aqua;
+    background-color:aliceblue;
 }
 #b2{
     margin: auto;
     border-radius: 150px;
     width: 200px;
     height: 200px;
-    background-color:aqua;
+    background-color:aliceblue;
 }
 #b3{
     margin: auto;
     border-radius: 200px;
     width: 300px;
     height: 300px;
-    background-color:aqua;
+    background-color:aliceblue;
 }
 #m1{
+    position: relative;
+    top: 60px;
     margin: auto;
-    width: 200px;
+    width: 400px;;
     height: 25px;
-    background-color: red;
-   
+    background-color: aliceblue;
+    position: relative;
+    right: 100px;
 }
 
